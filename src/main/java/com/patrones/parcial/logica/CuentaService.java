@@ -4,15 +4,65 @@ import com.patrones.parcial.db.jpa.CuentaJPA;
 import com.patrones.parcial.db.jpa.TransaccionJPA;
 import com.patrones.parcial.db.orm.CuentaORM;
 import com.patrones.parcial.db.orm.TransaccionORM;
+import jakarta.annotation.PostConstruct;
 import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class CuentaService {
 
-    private final CuentaJPA cuentajpa;
+    private final CuentaJPA cuentaJPA;
+
+    @PostConstruct
+    public void inicializarCuentas() {
+        if (cuentaJPA.count() == 0) {
+            CuentaORM cuentaABC = new CuentaORM();
+            cuentaABC.setMonto(10000.0);
+            cuentaJPA.save(cuentaABC);
+
+            CuentaORM cuentaCBD = new CuentaORM();
+            cuentaCBD.setMonto(10000.0);
+            cuentaJPA.save(cuentaCBD);
+        }
+    }
+
+    public double obtenerSaldo(Long idCuenta) {
+        return cuentaJPA.findById(idCuenta)
+                .map(CuentaORM::getMonto)
+                .orElse(0.0);
+    }
+
+    public List<CuentaORM> obtenerTodasLasCuentas() {
+        return cuentaJPA.findAll();
+    }
+    /*
+    public CuentaService(CuentaJPA cuentaRepository) {
+        this.cuentaJPA = cuentaRepository;
+    }
+
+    public List<CuentaORM> obtenerTodas() {
+        return cuentaJPA.findAll();
+    }
+
+    public CuentaORM obtenerCuentaPorId(Long cuentaId) throws Exception {
+        return cuentaJPA.findById(cuentaId)
+                .orElseThrow(() -> new Exception("Cuenta no encontrada"));
+    }
+
+    public void actualizarCuenta(CuentaORM cuenta) {
+        cuentaJPA.save(cuenta);
+    }
+
+    */
+
+
+    //Solucion 1
+    /*private final CuentaJPA cuentajpa;
     private final TransaccionJPA transaccionjpa;
 
     public CuentaService(CuentaJPA cuentajpa, TransaccionJPA transaccionjpa) {
@@ -75,7 +125,7 @@ public class CuentaService {
         return cuentajpa.findById(idCuenta)
                 .orElseThrow(() -> new IllegalArgumentException("Cuenta no encontrada"));
     }
-
+       */
 
 
 }

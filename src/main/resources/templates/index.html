@@ -1,0 +1,102 @@
+<button onclick="iniciarTransferencias()">Iniciar Transferencias Automáticas</button>
+<button onclick="detenerTransferencias()">Detener Transferencias</button>
+
+<h2>Transferencias Personalizadas</h2>
+<label for="origen">Cuenta Origen:</label>
+<select id="origen">
+    <option value="1">Cuenta 1</option>
+    <option value="2">Cuenta 2</option>
+</select>
+
+<label for="destino">Cuenta Destino:</label>
+<select id="destino">
+    <option value="1">Cuenta 1</option>
+    <option value="2">Cuenta 2</option>
+</select>
+
+<label for="monto">Monto:</label>
+<input type="number" id="monto" min="1">
+<button onclick="transferenciaPersonalizada()">Transferir</button>
+
+<h2>Saldo de Cuentas</h2>
+<button onclick="verSaldo()">Ver Saldo</button>
+<p id="saldo"></p>
+
+<script>
+    let ejecutando = false;
+
+    async function iniciarTransferencias() {
+        ejecutando = true;
+        const origen = "1";
+        const destino = "2";
+        const monto = 5;
+
+        while (ejecutando) {
+            let peticiones = [];
+
+            for (let i = 0; i < 30; i++) {
+                peticiones.push(fetch("/transferencia", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: `origen=${origen}&destino=${destino}&monto=${monto}`
+                }));
+            }
+
+            await Promise.all(peticiones);
+
+            await verSaldo();
+
+            let respuesta = await fetch("/cuentas");
+            let cuentas = await respuesta.json();
+
+            let saldoOrigen = cuentas.find(c => c.id === origen)?.monto || 0;
+
+            if (saldoOrigen <= 0 || saldoOrigen === 20000) {
+                ejecutando = false;
+                alert("Transferencias completadas");
+            }
+        }
+    }
+
+    function detenerTransferencias() {
+        ejecutando = false;
+        alert("Transferencias detenidas");
+    }
+
+    async function transferenciaPersonalizada() {
+        const origen = document.getElementById("origen").value;
+        const destino = document.getElementById("destino").value;
+        const monto = document.getElementById("monto").value;
+
+        if (origen === destino) {
+            alert("La cuenta de origen y destino no pueden ser la misma.");
+            return;
+        }
+
+        if (!monto || monto <= 0) {
+            alert("Ingresa un monto válido");
+            return;
+        }
+
+        let respuesta = await fetch("/transferencia", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: `origen=${origen}&destino=${destino}&monto=${monto}`
+        });
+
+        let resultado = await respuesta.text();
+        alert(resultado);
+        await verSaldo();
+    }
+
+    async function verSaldo() {
+        let respuesta = await fetch("/cuentas");
+        let cuentas = await respuesta.json();
+        actualizarSaldo(cuentas);
+    }
+
+    function actualizarSaldo(cuentas) {
+        let saldoTexto = cuentas.map(c => `Cuenta ${c.id}: $${c.monto}`).join("<br>");
+        document.getElementById("saldo").innerHTML = saldoTexto;
+    }
+</script>
