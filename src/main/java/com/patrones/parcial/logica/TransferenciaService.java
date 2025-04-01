@@ -30,6 +30,7 @@ public class TransferenciaService {
 
 
     @Transactional
+    @Trace(dispatcher = true)
     public synchronized boolean transferir(Long idOrigen, Long idDestino, double monto) {
         log.info("Intentando transferir {} de cuenta {} a cuenta {}", monto, idOrigen, idDestino);
 

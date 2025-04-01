@@ -19,6 +19,7 @@ public class CuentaService {
     private final CuentaJPA cuentaJPA;
 
     @PostConstruct
+    @Transactional
     public void inicializarCuentas() {
         if (cuentaJPA.count() == 0) {
             CuentaORM cuentaABC = new CuentaORM();
@@ -31,12 +32,14 @@ public class CuentaService {
         }
     }
 
+    @Transactional
     public double obtenerSaldo(Long idCuenta) {
         return cuentaJPA.findById(idCuenta)
                 .map(CuentaORM::getMonto)
                 .orElse(0.0);
     }
 
+    @Transactional
     public List<CuentaORM> obtenerTodasLasCuentas() {
         return cuentaJPA.findAll();
     }

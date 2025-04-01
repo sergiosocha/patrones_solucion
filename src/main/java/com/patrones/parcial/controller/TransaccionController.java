@@ -15,7 +15,7 @@ public class TransaccionController {
     private final TransferenciaService transferenciaService;
 
     @PostMapping("/transferir")
-    public String transferir(@RequestParam Long origen, @RequestParam Long destino, @RequestParam double monto) {
+    public synchronized String transferir(@RequestParam Long origen, @RequestParam Long destino, @RequestParam double monto) {
         boolean success = transferenciaService.transferir(origen, destino, monto);
         return success ? "Transferencia exitosa" : "Saldo insuficiente";
     }
