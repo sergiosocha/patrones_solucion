@@ -12,7 +12,7 @@ public class TransferenciaConcurrenteController {
     private final TransferenciaConcurrenteService transferenciaConcurrenteService;
 
     @PostMapping("/iniciar")
-    public String iniciarTransferencias() {
+    public synchronized String iniciarTransferencias() {
         transferenciaConcurrenteService.ejecutarTransferenciasConcurrentes();
         return "Transferencias concurrentes iniciadas";
     }

@@ -1,8 +1,11 @@
 package com.patrones.parcial.logica;
 
 
+import com.newrelic.api.agent.Trace;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -13,7 +16,9 @@ public class TransferenciaConcurrenteService {
     private final TransferenciaService transferenciaService;
     private final CuentaService cuentaService;
 
-    public void ejecutarTransferenciasConcurrentes() {
+    @Transactional
+    @Trace(dispatcher = true)
+    public synchronized void ejecutarTransferenciasConcurrentes() {
         ExecutorService executor = Executors.newFixedThreadPool(30);
 
         Long idCuentaABC = 1L;

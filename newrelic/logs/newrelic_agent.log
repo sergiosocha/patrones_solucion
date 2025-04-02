@@ -768,3 +768,668 @@
 2025-03-31T18:16:59,352-0500 [18740 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
 2025-03-31T18:16:59,477-0500 [18740 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
 2025-03-31T18:16:59,477-0500 [18740 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T15:08:56,140-0500 [22708 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T15:08:56,689-0500 [22708 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T15:08:57,818-0500 [22708 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T15:08:58,096-0500 [22708 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T15:08:58,229-0500 [22708 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T15:08:58,234-0500 [22708 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T15:08:58,235-0500 [22708 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T15:08:58,235-0500 [22708 1] com.newrelic INFO: Premain startup complete in 2,867ms
+2025-04-01T15:08:58,237-0500 [22708 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T15:09:02,007-0500 [22708 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T15:09:53,315-0500 [22708 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T15:09:53,316-0500 [22708 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:09:53,885-0500 [22708 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T15:09:54,298-0500 [22708 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T15:09:54,299-0500 [22708 40] com.newrelic INFO: Agent run id: BZWi2aOQAjCRAGQ28kKgk3ln7EhUAAIBAAAnIQEAAFi0AgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T15:09:54,299-0500 [22708 40] com.newrelic INFO: Agent 22708@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T15:09:54,299-0500 [22708 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T15:09:54,300-0500 [22708 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:09:54,300-0500 [22708 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:09:54,300-0500 [22708 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:09:54,303-0500 [22708 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:09:54,303-0500 [22708 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:09:54,303-0500 [22708 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:09:55,031-0500 [22708 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T15:09:55,031-0500 [22708 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T15:13:26,047-0500 [24152 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T15:13:26,520-0500 [24152 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T15:13:27,426-0500 [24152 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T15:13:27,709-0500 [24152 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T15:13:27,859-0500 [24152 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T15:13:27,865-0500 [24152 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T15:13:27,866-0500 [24152 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T15:13:27,866-0500 [24152 1] com.newrelic INFO: Premain startup complete in 2,502ms
+2025-04-01T15:13:27,868-0500 [24152 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T15:13:32,166-0500 [24152 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T15:13:57,918-0500 [24152 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T15:13:57,919-0500 [24152 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:13:58,472-0500 [24152 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T15:13:59,157-0500 [24152 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T15:13:59,157-0500 [24152 40] com.newrelic INFO: Agent run id: BcKlwHXby1m5AGQ28kKgk3ln7ElEAAIBAAAnIQEAAF5YAgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T15:13:59,157-0500 [24152 40] com.newrelic INFO: Agent 24152@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T15:13:59,158-0500 [24152 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T15:13:59,159-0500 [24152 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:13:59,159-0500 [24152 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:13:59,159-0500 [24152 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:13:59,161-0500 [24152 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:13:59,162-0500 [24152 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:13:59,162-0500 [24152 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:13:59,283-0500 [24152 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T15:13:59,283-0500 [24152 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T15:15:20,063-0500 [19764 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T15:15:20,525-0500 [19764 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T15:15:21,360-0500 [19764 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T15:15:21,584-0500 [19764 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T15:15:21,730-0500 [19764 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T15:15:21,734-0500 [19764 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T15:15:21,734-0500 [19764 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T15:15:21,734-0500 [19764 1] com.newrelic INFO: Premain startup complete in 2,335ms
+2025-04-01T15:15:21,736-0500 [19764 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T15:15:25,437-0500 [19764 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T15:16:11,790-0500 [19764 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T15:16:11,791-0500 [19764 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T15:16:12,342-0500 [19764 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T15:16:13,015-0500 [19764 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T15:16:13,015-0500 [19764 40] com.newrelic INFO: Agent run id: BX4-9efZcIDTAGQ28kKgk3ln7En4AAIBAAAnIQEAAE00AgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T15:16:13,015-0500 [19764 40] com.newrelic INFO: Agent 19764@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T15:16:13,015-0500 [19764 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T15:16:13,017-0500 [19764 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:16:13,017-0500 [19764 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:16:13,017-0500 [19764 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:16:13,019-0500 [19764 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T15:16:13,019-0500 [19764 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T15:16:13,019-0500 [19764 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T15:16:13,437-0500 [19764 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T15:16:13,437-0500 [19764 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T17:00:07,407-0500 [9952 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T17:00:07,876-0500 [9952 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T17:00:08,748-0500 [9952 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T17:00:08,958-0500 [9952 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T17:00:09,095-0500 [9952 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T17:00:09,098-0500 [9952 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T17:00:09,098-0500 [9952 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T17:00:09,098-0500 [9952 1] com.newrelic INFO: Premain startup complete in 2,357ms
+2025-04-01T17:00:09,100-0500 [9952 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T17:00:13,188-0500 [9952 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T17:00:24,121-0500 [9952 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T17:00:24,122-0500 [9952 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:00:24,687-0500 [9952 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T17:00:25,100-0500 [9952 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T17:00:25,101-0500 [9952 40] com.newrelic INFO: Agent run id: BTHcNc_iJBBRAGQ28kKgk3ln7GJYAAIBAAAnIQEAACbgAgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T17:00:25,101-0500 [9952 40] com.newrelic INFO: Agent 9952@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T17:00:25,101-0500 [9952 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T17:00:25,103-0500 [9952 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:00:25,103-0500 [9952 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:00:25,103-0500 [9952 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:00:25,106-0500 [9952 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:00:25,106-0500 [9952 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:00:25,106-0500 [9952 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:00:25,324-0500 [9952 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T17:00:25,324-0500 [9952 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:01:57,127-0500 [15292 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T17:01:57,127-0500 [15292 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T17:01:57,127-0500 [15292 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T17:01:57,127-0500 [15292 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T17:01:57,128-0500 [15292 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T17:01:57,128-0500 [15292 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T17:01:57,607-0500 [15292 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T17:01:58,410-0500 [15292 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T17:01:58,626-0500 [15292 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T17:01:58,769-0500 [15292 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T17:01:58,774-0500 [15292 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T17:01:58,774-0500 [15292 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T17:01:58,775-0500 [15292 1] com.newrelic INFO: Premain startup complete in 2,331ms
+2025-04-01T17:01:58,776-0500 [15292 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T17:02:02,675-0500 [15292 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T17:02:13,788-0500 [15292 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T17:02:13,791-0500 [15292 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:02:14,369-0500 [15292 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T17:02:15,072-0500 [15292 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T17:02:15,072-0500 [15292 40] com.newrelic INFO: Agent run id: BfMy0X7quPEzAGQ28kKgk3ln7GLQAAIBAAAnIQEAADu8AgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T17:02:15,072-0500 [15292 40] com.newrelic INFO: Agent 15292@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T17:02:15,073-0500 [15292 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T17:02:15,074-0500 [15292 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:02:15,074-0500 [15292 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:02:15,074-0500 [15292 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:02:15,076-0500 [15292 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:02:15,077-0500 [15292 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:02:15,077-0500 [15292 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:02:15,203-0500 [15292 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T17:02:15,204-0500 [15292 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:04:31,016-0500 [15292 16] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-04-01T17:04:31,503-0500 [15292 16] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2025-04-01T17:04:41,007-0500 [11792 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T17:04:41,007-0500 [11792 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T17:04:41,008-0500 [11792 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T17:04:41,008-0500 [11792 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T17:04:41,008-0500 [11792 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T17:04:41,008-0500 [11792 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T17:04:41,469-0500 [11792 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T17:04:42,255-0500 [11792 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T17:04:42,466-0500 [11792 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T17:04:42,603-0500 [11792 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T17:04:42,606-0500 [11792 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T17:04:42,606-0500 [11792 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T17:04:42,607-0500 [11792 1] com.newrelic INFO: Premain startup complete in 2,269ms
+2025-04-01T17:04:42,608-0500 [11792 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T17:04:46,577-0500 [11792 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T17:04:57,633-0500 [11792 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T17:04:57,634-0500 [11792 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:04:58,185-0500 [11792 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T17:04:58,866-0500 [11792 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T17:04:58,867-0500 [11792 40] com.newrelic INFO: Agent run id: BcuqBR_sqvNHAGQ28kKgk3ln7GNIAAIBAAAnIQEAAC4QAgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T17:04:58,867-0500 [11792 40] com.newrelic INFO: Agent 11792@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T17:04:58,868-0500 [11792 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T17:04:58,869-0500 [11792 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:04:58,869-0500 [11792 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:04:58,869-0500 [11792 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:04:58,872-0500 [11792 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:04:58,872-0500 [11792 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:04:58,872-0500 [11792 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:04:58,996-0500 [11792 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T17:04:58,997-0500 [11792 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: Agent Host: Sergi-desktop IP: 192.168.1.9
+2025-04-01T17:16:08,661-0500 [21928 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-01T17:16:09,194-0500 [21928 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-01T17:16:10,064-0500 [21928 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-01T17:16:10,299-0500 [21928 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-01T17:16:10,424-0500 [21928 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Proyectos\Patrones\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-01T17:16:10,428-0500 [21928 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-01T17:16:10,428-0500 [21928 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@606d8acf
+2025-04-01T17:16:10,428-0500 [21928 1] com.newrelic INFO: Premain startup complete in 2,505ms
+2025-04-01T17:16:10,429-0500 [21928 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-01T17:16:14,656-0500 [21928 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-01T17:16:25,458-0500 [21928 40] com.newrelic INFO: Host name is Sergi-desktop, display host Sergi-desktop for application patrones_solucion (Production)
+2025-04-01T17:16:25,459-0500 [21928 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:16:26,844-0500 [21928 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-01T17:16:27,823-0500 [21928 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-01T17:16:27,823-0500 [21928 40] com.newrelic INFO: Agent run id: BVVMKvqo26UVAGQ28kKgk3ln7GYYAAIBAAAnIQEAAFWoAgRCoL50AwAGOC4xOS4wAA1TZXJnaS1kZXNrdG9wAB5wYXRyb25lc19zb2x1Y2lvbiAoUHJvZHVjdGlvbik
+2025-04-01T17:16:27,824-0500 [21928 40] com.newrelic INFO: Agent 21928@Sergi-desktop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-01T17:16:27,824-0500 [21928 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-01T17:16:27,825-0500 [21928 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:16:27,825-0500 [21928 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:16:27,825-0500 [21928 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:16:27,827-0500 [21928 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-01T17:16:27,827-0500 [21928 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-01T17:16:27,827-0500 [21928 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-01T17:16:29,995-0500 [21928 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-01T17:16:29,995-0500 [21928 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-01T17:33:08,367-0500 [21928 66] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendSqlTraceData(DataSenderImpl.java:488) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendSqlTraceDataSyncRestart(RPMService.java:662) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendSqlTraceData(RPMService.java:648) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.sql.SqlTraceServiceImpl.beforeHarvest(SqlTraceServiceImpl.java:99) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.notifyListenerBeforeHarvest(HarvestServiceImpl.java:466) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.access$800(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:426) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+	Suppressed: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+		at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425) ~[?:?]
+		at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445) ~[?:?]
+		at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831) ~[?:?]
+		at java.net.Socket$SocketOutputStream.write(Socket.java:1035) ~[?:?]
+		at sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81) ~[?:?]
+		at sun.security.ssl.TransportContext.fatal(TransportContext.java:414) ~[?:?]
+		at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+		at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:467) ~[?:?]
+		at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+		at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.sendSqlTraceData(DataSenderImpl.java:488) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.RPMService.sendSqlTraceDataSyncRestart(RPMService.java:662) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.RPMService.sendSqlTraceData(RPMService.java:648) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.sql.SqlTraceServiceImpl.beforeHarvest(SqlTraceServiceImpl.java:99) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl.notifyListenerBeforeHarvest(HarvestServiceImpl.java:466) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl.access$800(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:426) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+		at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 35 more
+2025-04-01T17:33:35,785-0500 [21928 66] com.newrelic INFO: Remote sql_trace_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:33:44,742-0500 [21928 67] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendAnalyticEventsForReservoir(DataSenderImpl.java:374) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendAnalyticsEvents(DataSenderImpl.java:341) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendAnalyticsEventsSyncRestart(RPMService.java:510) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendAnalyticsEvents(RPMService.java:490) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.service.analytics.TransactionEventsService.harvestEvents(TransactionEventsService.java:201) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.Harvestable.harvest(Harvestable.java:37) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestableTracker$1.run(HarvestServiceImpl.java:506) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 33 more
+2025-04-01T17:33:53,783-0500 [21928 67] com.newrelic INFO: Remote analytic_event_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:34:21,149-0500 [21928 66] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendMetricData(DataSenderImpl.java:419) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendMetricDataSyncRestart(RPMService.java:937) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.harvest(RPMService.java:860) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.reportHarvest(HarvestServiceImpl.java:453) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.access$900(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:429) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 34 more
+2025-04-01T17:34:21,150-0500 [21928 66] com.newrelic INFO: Remote metric_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:34:21,150-0500 [21928 66] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+2025-04-01T17:34:39,320-0500 [21928 67] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendLogEventsForReservoir(DataSenderImpl.java:403) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendLogEvents(DataSenderImpl.java:351) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendLogEventsSyncRestart(RPMService.java:605) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendLogEvents(RPMService.java:543) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.service.logging.LogSenderServiceImpl.harvestEvents(LogSenderServiceImpl.java:427) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.Harvestable.harvest(Harvestable.java:37) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestableTracker$1.run(HarvestServiceImpl.java:506) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 33 more
+2025-04-01T17:34:39,320-0500 [21928 67] com.newrelic INFO: Remote log_event_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:34:57,901-0500 [21928 66] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.getAgentCommands(DataSenderImpl.java:294) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.getAgentCommandsSyncRestart(RPMService.java:787) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.getAgentCommands(RPMService.java:773) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.commands.CommandParser.beforeHarvest(CommandParser.java:93) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.notifyListenerBeforeHarvest(HarvestServiceImpl.java:466) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.access$800(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:426) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 35 more
+2025-04-01T17:34:57,901-0500 [21928 66] com.newrelic INFO: Remote get_agent_commands call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:35:25,259-0500 [21928 67] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendAnalyticEventsForReservoir(DataSenderImpl.java:374) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendAnalyticsEvents(DataSenderImpl.java:341) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendAnalyticsEventsSyncRestart(RPMService.java:510) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendAnalyticsEvents(RPMService.java:490) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.service.analytics.TransactionEventsService.harvestEvents(TransactionEventsService.java:201) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.Harvestable.harvest(Harvestable.java:37) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestableTracker$1.run(HarvestServiceImpl.java:506) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 33 more
+2025-04-01T17:35:25,260-0500 [21928 67] com.newrelic INFO: Remote analytic_event_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:36:11,911-0500 [21928 67] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendLogEventsForReservoir(DataSenderImpl.java:403) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendLogEvents(DataSenderImpl.java:351) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendLogEventsSyncRestart(RPMService.java:605) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendLogEvents(RPMService.java:543) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.service.logging.LogSenderServiceImpl.harvestEvents(LogSenderServiceImpl.java:427) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.Harvestable.harvest(Harvestable.java:37) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestableTracker$1.run(HarvestServiceImpl.java:506) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 33 more
+2025-04-01T17:36:11,912-0500 [21928 67] com.newrelic INFO: Remote log_event_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:36:40,118-0500 [21928 66] com.newrelic INFO: Unable to connect to New Relic due to an SSL error. Consider enabling -Djavax.net.debug=all to debug your SSL configuration such as your trust store.
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1514) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.transport.DataSenderImpl.sendSqlTraceData(DataSenderImpl.java:488) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendSqlTraceDataSyncRestart(RPMService.java:662) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.RPMService.sendSqlTraceData(RPMService.java:648) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.sql.SqlTraceServiceImpl.beforeHarvest(SqlTraceServiceImpl.java:99) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.notifyListenerBeforeHarvest(HarvestServiceImpl.java:466) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl.access$800(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:426) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+	at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+	Suppressed: java.net.SocketException: Se ha anulado una conexión establecida por el software en su equipo host.
+		at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:425) ~[?:?]
+		at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:445) ~[?:?]
+		at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:831) ~[?:?]
+		at java.net.Socket$SocketOutputStream.write(Socket.java:1035) ~[?:?]
+		at sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:81) ~[?:?]
+		at sun.security.ssl.TransportContext.fatal(TransportContext.java:414) ~[?:?]
+		at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+		at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:467) ~[?:?]
+		at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+		at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.deps.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.apache.ApacheHttpClientWrapper.execute(ApacheHttpClientWrapper.java:162) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.connectAndSend(DataSenderImpl.java:601) ~[newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.send(DataSenderImpl.java:723) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.invoke(DataSenderImpl.java:542) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.invokeRunId(DataSenderImpl.java:532) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.transport.DataSenderImpl.sendSqlTraceData(DataSenderImpl.java:488) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.RPMService.sendSqlTraceDataSyncRestart(RPMService.java:662) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.RPMService.sendSqlTraceData(RPMService.java:648) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.sql.SqlTraceServiceImpl.beforeHarvest(SqlTraceServiceImpl.java:99) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl.notifyListenerBeforeHarvest(HarvestServiceImpl.java:466) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl.access$800(HarvestServiceImpl.java:46) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.doHarvest(HarvestServiceImpl.java:426) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.harvest(HarvestServiceImpl.java:398) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.HarvestServiceImpl$HarvestTask.run(HarvestServiceImpl.java:334) [newrelic.jar:8.19.0]
+		at com.newrelic.agent.util.SafeWrappers$1.run(SafeWrappers.java:34) [newrelic.jar:8.19.0]
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+		at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	... 35 more
+2025-04-01T17:36:40,119-0500 [21928 66] com.newrelic INFO: Remote sql_trace_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
+2025-04-01T17:38:04,985-0500 [21928 66] com.newrelic INFO: Successfully reconnected to the New Relic data service.
