@@ -1433,3 +1433,50 @@ Caused by: java.io.EOFException: SSL peer shut down incorrectly
 	... 35 more
 2025-04-01T17:36:40,119-0500 [21928 66] com.newrelic INFO: Remote sql_trace_data call failed : javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake.
 2025-04-01T17:38:04,985-0500 [21928 66] com.newrelic INFO: Successfully reconnected to the New Relic data service.
+2025-04-04T17:05:38,345-0500 [19004 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Universidad\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-04T17:05:38,346-0500 [19004 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-04T17:05:38,346-0500 [19004 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-04T17:05:38,346-0500 [19004 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-04T17:05:38,347-0500 [19004 1] com.newrelic INFO: Agent Host: sergi_laptop IP: 172.23.224.1
+2025-04-04T17:05:38,347-0500 [19004 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-04T17:05:38,943-0500 [19004 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-04T17:05:39,813-0500 [19004 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-04T17:05:40,037-0500 [19004 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-04T17:05:40,158-0500 [19004 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Universidad\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-04T17:05:40,164-0500 [19004 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-04T17:05:40,164-0500 [19004 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@69222c14
+2025-04-04T17:05:40,164-0500 [19004 1] com.newrelic INFO: Premain startup complete in 2,763ms
+2025-04-04T17:05:40,166-0500 [19004 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-04T17:05:44,692-0500 [19004 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-04T17:05:51,446-0500 [19004 16] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-04-04T17:05:51,450-0500 [19004 16] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2025-04-04T17:12:14,947-0500 [3868 1] com.newrelic INFO: Writing to New Relic log file: C:\Users\sergi\Desktop\Universidad\patrones_solucion\newrelic\logs\newrelic_agent.log
+2025-04-04T17:12:14,948-0500 [3868 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.11
+2025-04-04T17:12:14,948-0500 [3868 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 17.0.11+7-LTS-207
+2025-04-04T17:12:14,948-0500 [3868 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-04-04T17:12:14,948-0500 [3868 1] com.newrelic INFO: Agent Host: sergi_laptop IP: 172.23.224.1
+2025-04-04T17:12:14,949-0500 [3868 1] com.newrelic INFO: New Relic Agent v8.19.0 is initializing...
+2025-04-04T17:12:15,692-0500 [3868 19] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-04-04T17:12:16,627-0500 [3868 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-04-04T17:12:16,874-0500 [3868 1] com.newrelic INFO: Setting audit_mode to false
+2025-04-04T17:12:17,009-0500 [3868 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is C:\Users\sergi\Desktop\Universidad\patrones_solucion\newrelic\.\newrelic.yml
+2025-04-04T17:12:17,013-0500 [3868 1] com.newrelic INFO: New Relic Agent v8.19.0 has started
+2025-04-04T17:12:17,013-0500 [3868 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@69222c14
+2025-04-04T17:12:17,013-0500 [3868 1] com.newrelic INFO: Premain startup complete in 2,998ms
+2025-04-04T17:12:17,015-0500 [3868 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-04-04T17:12:21,035-0500 [3868 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.39
+2025-04-04T17:12:32,039-0500 [3868 40] com.newrelic INFO: Host name is sergi_laptop, display host sergi_laptop for application patrones_solucion (Production)
+2025-04-04T17:12:32,040-0500 [3868 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-04-04T17:12:32,644-0500 [3868 40] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-04-04T17:12:33,344-0500 [3868 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2025-04-04T17:12:33,344-0500 [3868 40] com.newrelic INFO: Agent run id: BVCVM7PZYPH4AGQ28kL4uu5n8FlsAAIBAAAnIQEAAA8cAgRCoL50AwAGOC4xOS4wAAxzZXJnaV9sYXB0b3AAHnBhdHJvbmVzX3NvbHVjaW9uIChQcm9kdWN0aW9uKQ
+2025-04-04T17:12:33,345-0500 [3868 40] com.newrelic INFO: Agent 3868@sergi_laptop/patrones_solucion (Production) connected to collector.newrelic.com:443
+2025-04-04T17:12:33,345-0500 [3868 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/6567666/applications/1117830772
+2025-04-04T17:12:33,347-0500 [3868 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-04T17:12:33,348-0500 [3868 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-04T17:12:33,348-0500 [3868 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-04T17:12:33,351-0500 [3868 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-04-04T17:12:33,351-0500 [3868 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-04-04T17:12:33,351-0500 [3868 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-04-04T17:12:33,594-0500 [3868 40] com.newrelic INFO: Real user monitoring is enabled for application patrones_solucion (Production). Auto instrumentation is enabled.
+2025-04-04T17:12:33,595-0500 [3868 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
